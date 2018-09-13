@@ -1,0 +1,14 @@
+[package]
+name = "zeke"
+version = "0.1.0"
+authors = ["Kamyar Mohajerani <kammoh@gmail.com>"]
+
+[dependencies]
+actix-web = { version = "0.7" , features = ["alpn"] }
+actix = "0.7"
+env_logger = "0.5.13"
+log = "0.4.4"
+openssl = "0.10"
+serde_derive = "1.0.76"
+serde = "1.0.76"
+rexpect = {git = "https://github.com/philippkeller/rexpect.git"}
